@@ -1,8 +1,8 @@
 public class Cliente {
     private String nome;
-    private int CPF;
+    private String CPF;
 
-    public Cliente(String n, int c){
+    public Cliente(String n, String c){
         nome = n;
         CPF = c;
     }
@@ -14,10 +14,10 @@ public class Cliente {
         nome = n;
     }
 
-    public int getCpf(){
+    public String getCpf(){
         return CPF;
     }
-    public void setCpf(int c){
+    public void setCpf(String c){
         CPF = c;
     }
 }
