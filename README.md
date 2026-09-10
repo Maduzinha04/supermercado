@@ -1,18 +1,13 @@
-## Getting Started
+## Sistema de Supermercado
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Algoritmos e Classificação de Dados.
 
-## Folder Structure
+## Estrutura do projeto
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+supermercado/src/Produto -- Gerencia a descrição, o preço e a quantidade em estoque dos produtos.
+supermercado/src/Cliente -- Armazena o nome e o CPF do cliente
+supermercado/src/ItemPedido  -- Relaciona um produto específico à quantidade desejada.
+supermercado/src/Pedido  -- Agrupa o cliente, a lista de itens e a forma de pagamento (DINHEIRO, CHEQUE ou CARTÃO), além de calcular o valor total.
+supermercado/src/Main -- PExecuta o menu interativo via terminal.
+```
